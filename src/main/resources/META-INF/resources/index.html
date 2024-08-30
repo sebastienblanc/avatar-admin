@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Planet Hipola</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3/dist/phaser.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="phaser-container" id="phaser-container"></div>
+        <div class="retro-buttons">
+            <button id="chat" class="retro-btn">Start chat !</button>
+            <button id="stop" class="retro-btn">Stop chat ...</button>
+            <button id="recordButton" class="retro-btn record-button">Interact</button>
+        </div>
+        <div class="live-feed" >
+            <div class="live-feed-header"><h2>LIVE FEED</h2></div>
+            <div id="live-feed"></div>
+        </div>
+    </div>
+    <script src="phaser-scene.js"></script>
+    <script src="livefeed.js"></script>
+    <script src="button-actions.js"></script>
+    <script src="recorder.js"></script>
+</body>
+</html>
